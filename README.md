@@ -2,7 +2,6 @@
 
 # The Intelligence Behind Software Creation
 
-
 <p align="center">
   <b>Uma plataforma de Inteligência Artificial capaz de criar aplicações, sistemas, dashboards e infraestrutura de software através de linguagem natural.</b>
 </p>
