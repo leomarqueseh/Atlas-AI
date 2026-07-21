@@ -1,138 +1,617 @@
-Markdown
-# 🌌 ATLAS AI — Engine System
+# 🌌 ATLAS AI
 
-**Plataforma de Engenharia de Software com IA (Prompt-to-Production & Dynamic Canvas Builder)**
+# AI Software Engineering Platform
 
----
+## From Prompt to Production 🚀
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Python Version](https://img.shields.io/badge/Python-3.11%2B-blue?logo=python)](https://www.python.org/)
-[![FastAPI](https://img.shields.io/badge/Backend-FastAPI-009688?logo=fastapi)](https://fastapi.tiangolo.com/)
-[![React](https://img.shields.io/badge/Frontend-React%20%7C%20TypeScript-61DAFB?logo=react)](https://react.dev/)
-[![Docker](https://img.shields.io/badge/Deployment-Docker-2496ED?logo=docker)](https://www.docker.com/)
 
-O **ATLAS AI** é uma plataforma de classe enterprise para engenharia de software automatizada. Diferente de assistentes de código convencionais (*co-pilots*) que apenas geram snippets isolados, o ATLAS AI atua como um engenheiro de software autônomo de nível *Staff*: analisa requisitos em linguagem natural, projeta a arquitetura, implementa bases de dados, constrói APIs REST e disponibiliza interfaces visuais interativas (**Canvas Drag & Drop**) para personalização de dashboards de Business Intelligence e páginas web.
+![ATLAS AI](https://img.shields.io/badge/ATLAS-AI-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Architecture](https://img.shields.io/badge/Architecture-Modular-orange)
+![AI](https://img.shields.io/badge/Powered%20by-Artificial%20Intelligence-purple)
 
-Embora o ecossistema do **ATLAS AI** seja integralmente desenvolvido em **Python** (Backend) e **TypeScript/React** (Frontend), o engine de geração possui capacidade poliglota nativa, permitindo que o usuário escolha a linguagem e a stack de destino para os projetos exportados (Python, Go, Node.js, Java, C#, etc.).
 
----
+## 🧠 Engineering Software with Artificial Intelligence
 
-## 🏛️ Visão Geral da Arquitetura
 
-O coração do ecossistema é o **ATLAS Blueprint Engine™**, que utiliza o conceito de *Single Source of Truth* (SSOT). Toda a especificação da aplicação gerada — desde modelos de dados e segurança até a posição de cada widget no ecrã — é armazenada e atualizada através de um esquema rigorosamente tipado em JSON.
+ATLAS AI is an Artificial Intelligence Software Engineering Platform capable of transforming ideas into complete production-ready applications.
 
-┌───────────────────────────┐
-│   Prompt em Linguagem     │
-│         Natural           │
-└─────────────┬─────────────┘
-│
-▼
-┌───────────────────────────┐
-│ Requirement Analysis Engine│
-└─────────────┬─────────────┘
-│
-▼
-┌───────────────────────────┐
-│  ATLAS Blueprint Engine™  │ ◄─────── Modificações do Usuário
-│      (blueprint.json)     │          no Canvas Visual
-└─────────────┬─────────────┘
-│
-├──────────────────────────────────────┐
-▼                                      ▼
-┌───────────────────────────┐          ┌───────────────────────────┐
-│    Code Generation Engine │          │   Dynamic Visual Canvas   │
-│ (Python, Go, Node, etc.)  │          │    (React-Grid-Layout)    │
-└─────────────┬─────────────┘          └─────────────┬─────────────┘
-│                                      │
-└──────────────────┬───────────────────┘
-│
-▼
-┌──────────────────────────┐
-│ Artefatos de Produção &  │
-│   Deploy (Docker/CI-CD)  │
-└──────────────────────────┘
+Unlike traditional AI coding assistants that only generate code snippets, ATLAS AI performs complete software engineering:
+
+- Requirement analysis
+- Business understanding
+- Software architecture
+- Technology selection
+- Application generation
+- BI dashboards
+- Visual customization
+- Documentation
+- Deployment preparation
+
+
+> Traditional AI assistants generate code.
+>
+> **ATLAS AI engineers software.**
 
 
 ---
 
-## ✨ Principais Capacidades
+# 🚀 Vision
 
-### 1. Geração Poliglota de Software
-O usuário define a tecnologia de destino para o projeto gerado, e a IA compõe a solução aderindo às melhores práticas do ecossistema escolhido:
-* **Backend:** Python (FastAPI, Django), Go (Gin, Fiber), Node.js (NestJS, Express), Java (Spring Boot), C# (.NET Core).
-* **Frontend:** React, Next.js, Vue.js, Angular.
-* **Bases de Dados:** PostgreSQL, MySQL, SQLite, MongoDB.
+The mission of ATLAS AI is to create an intelligent software engineering platform capable of transforming natural language requirements into complete digital products.
 
-### 2. Interactive Canvas Builder (BI & Web)
-* **Editor Visual Drag & Drop:** Interface em grid dinâmico que permite redimensionar, mover e reconfigurar widgets em tempo real.
-* **Persistência Bidirecional:** Cada alteração efetuada no Canvas altera instantaneamente a estrutura no `blueprint.json`, garantindo sincronia total entre UI e código backend.
-* **Widget Engine:** Componentes de BI nativos (KPI Cards, gráficos interativos via ECharts/Recharts e tabelas dinâmicas com filtros de dados).
+From a simple idea:
 
-### 3. Pipeline Integrada de Engenharia
-* **Análise de Requisitos Automatizada:** Mapeamento de requisitos funcionais, não-funcionais e regras de negócio.
-* **Modelagem de Dados & DB Migration:** Criação de schemas SQL/NoSQL e scripts de migração.
-* **OpenAPI & Documentação Nativa:** Documentação interativa em padrão Swagger/OpenAPI gerada automaticamente.
-* **Infrastructure as Code (IaC):** Arquivos `Dockerfile`, `docker-compose.yml` e workflows do GitHub Actions prontos para produção.
+
+"Create a financial management system"
+
+
+ATLAS AI can generate:
+
+
+✔ Architecture
+✔ Backend
+✔ Frontend
+✔ Database
+✔ APIs
+✔ Dashboard
+✔ Documentation
+✔ Docker Environment
+✔ Deployment Configuration
+
+
 
 ---
 
-## 📂 Estrutura do Repositório Nacional (Core)
+# 🧩 How ATLAS AI Works
 
-A plataforma **ATLAS AI** é construída em **Python 3.11+** e **React/TypeScript**:
 
-```text
+
+User Prompt
+
+↓
+
+Requirement Analysis
+
+↓
+
+Business Understanding
+
+↓
+
+ATLAS Blueprint Engine™
+
+↓
+
+Architecture Design
+
+↓
+
+Technology Selection
+
+↓
+
+Application Generation
+
+↓
+
+Validation
+
+↓
+
+Documentation
+
+↓
+
+Deployment
+
+
+
+---
+
+# 🏛 ATLAS Blueprint Engine™
+
+The core intelligence layer of ATLAS AI.
+
+
+Every generated application is based on a Blueprint.
+
+The Blueprint is the:
+
+## Single Source of Truth
+
+
+It defines:
+
+- Application architecture
+- Database models
+- APIs
+- User interfaces
+- Components
+- Business rules
+- Deployment configuration
+- Documentation
+
+
+The Blueprint allows ATLAS AI to continuously evolve applications without losing project context.
+
+
+---
+
+# 🧠 Core Engines
+
+
+## Requirement Engine
+
+Transforms natural language into structured software requirements.
+
+
+Capabilities:
+
+- Functional requirements
+- Business rules
+- User roles
+- Permissions
+- Integrations
+- Technical constraints
+
+
+---
+
+## Orchestrator Engine
+
+Responsible for coordinating the entire AI engineering workflow.
+
+
+Responsibilities:
+
+- Engine communication
+- Workflow control
+- Context management
+- Project lifecycle management
+
+
+---
+
+## Architecture Engine
+
+Creates professional software architectures.
+
+
+Generates:
+
+- Clean Architecture
+- Modular systems
+- Design patterns
+- Database modeling
+- API design
+- Scalability strategies
+
+
+---
+
+## Technology Engine
+
+Selects the most appropriate technology stack.
+
+
+Example:
+
+
+Frontend:
+Next.js
+
+Backend:
+FastAPI
+
+Database:
+PostgreSQL
+
+Infrastructure:
+Docker
+
+
+
+---
+
+## Code Generation Engine
+
+Transforms the Blueprint into real software.
+
+
+Generates:
+
+- Backend
+- Frontend
+- APIs
+- Database models
+- Configuration files
+- Automated tests
+
+
+---
+
+# 📊 ATLAS BI Engine™
+
+Business Intelligence generation engine.
+
+
+Creates:
+
+- Interactive dashboards
+- KPI cards
+- Charts
+- Reports
+- Analytics
+- Data visualization
+
+
+Supported sources:
+
+- PostgreSQL
+- MySQL
+- SQLite
+- CSV
+- Excel
+- REST APIs
+
+
+---
+
+# 🎨 ATLAS Visual Canvas Engine™
+
+A visual environment for editing generated applications.
+
+
+Users can:
+
+- Customize dashboards
+- Edit layouts
+- Move components
+- Create pages
+- Modify interfaces
+- Design applications visually
+
+
+Workflow:
+
+
+Visual Editing
+
+↓
+
+UI Blueprint
+
+↓
+
+Code Update
+
+↓
+
+Application Evolution
+
+
+
+---
+
+# 🔐 Security Engine
+
+Security by design.
+
+
+Capabilities:
+
+- Secure coding recommendations
+- Authentication patterns
+- Authorization models
+- Dependency analysis
+- Secrets management
+- Security validation
+
+
+---
+
+# ✅ Validation Engine
+
+Ensures quality before deployment.
+
+
+Performs:
+
+- Code validation
+- Dependency checks
+- Testing
+- Architecture verification
+- Quality analysis
+
+
+---
+
+# 📄 Documentation Engine
+
+Automatically generates:
+
+- README
+- OpenAPI
+- Swagger
+- SQL documentation
+- Architecture documentation
+- User manuals
+
+
+---
+
+# 🚀 Deployment Engine
+
+Prepares applications for production.
+
+
+Generates:
+
+- Docker
+- Docker Compose
+- GitHub Actions
+- CI/CD pipelines
+- Nginx configuration
+- Environment variables
+
+
+---
+
+# 🏗 Architecture
+
+
+
 Atlas-AI/
-├── backend/                  # Core Service (Python / FastAPI)
-│   ├── app/
-│   │   ├── api/              # Endpoints REST (Auth, Blueprints, Canvas, Generates)
-│   │   ├── core/             # Configurações globais, segurança e JWT
-│   │   ├── engines/          # Motores de IA (Requirements Engine & Code Generators)
-│   │   ├── blueprints/       # Validadores e parsers do blueprint.json
-│   │   ├── generators/       # Geradores de código multi-linguagem (Python, Go, Node)
-│   │   ├── models/           # Modelos ORM (PostgreSQL via SQLAlchemy)
-│   │   ├── schemas/          # Validações Pydantic (Dashboard Layout & Canvas Schemas)
-│   │   └── main.py           # Ponto de entrada do serviço Backend
-├── frontend/                 # Interface Web & Visual Builder (React / TypeScript)
-│   ├── src/
-│   │   ├── components/       # UI Primitives e Componentes Atômicos
-│   │   ├── canvas/           # Construtor Visual Drag & Drop (React-Grid-Layout)
-│   │   ├── store/            # Gerenciamento de Estado Global do Blueprint (Zustand)
-│   │   └── pages/            # Módulos de Studio, Editor e Dashboard
-├── docs/                     # Documentação de Arquitetura e Engenharia
-├── docker-compose.yml        # Orquestração do ambiente completo de desenvolvimento
-└── README.md
-🚀 Quickstart (Ambiente de Desenvolvimento)
-Pré-requisitos
-Python 3.11+
 
-Node.js 18+
+backend/
 
-Docker & Docker Compose
+├── app/
 
-1. Clona o Repositório
-Bash
-git clone [https://github.com/open-source/atlas-ai.git](https://github.com/open-source/atlas-ai.git)
-cd atlas-ai
-2. Configuração do Backend (Python)
-Bash
-cd backend
-python -m venv venv
-source venv/bin/activate  # No Windows: venv\Scripts\activate
-pip install -r requirements.txt
-uvicorn app.main:app --reload --port 8000
-3. Configuração do Frontend (Canvas Studio)
-Bash
-cd ../frontend
-npm install
-npm run dev
-🛣️ Roadmap Estratégico
-[x] Fase 1: Core Engine & Blueprints (Modelagem do Engine, Parsers em Python e Especificação JSON).
+│
+├── api/
 
-[ ] Fase 2: Visual Canvas & BI Studio (Implementação do Grid Drag & Drop, Integração do ECharts e Sincronização em Tempo Real).
+├── core/
 
-[ ] Fase 3: Multi-Language Code Generators (Aprimoramento dos geradores para Go, Node.js e Java).
+├── engines/
 
-[ ] Fase 4: Multi-Agent Architecture & One-Click Cloud Deploy (Orquestração de agentes especializados e deploy automatizado em provedores Cloud).
+│
+├── orchestrator_engine/
 
-📄 Licença
-Este projeto é disponibilizado sob a Licença MIT. Para mais detalhes, consulte o arquivo LICENSE.
+├── requirement_engine/
+
+├── blueprint_engine/
+
+├── architecture_engine/
+
+├── technology_engine/
+
+├── code_generation_engine/
+
+├── bi_engine/
+
+├── canvas_engine/
+
+├── security_engine/
+
+├── validation_engine/
+
+└── documentation_engine/
+
+frontend/
+
+├── workspace/
+
+├── dashboard/
+
+├── canvas/
+
+├── builder/
+
+└── components/
+
+docs/
+
+tests/
+
+scripts/
+
+docker-compose.yml
+
+README.md
+
+
+
+---
+
+# 🌎 Supported Technologies
+
+
+## Backend
+
+- Python
+- Golang
+- Node.js
+- Java
+- C#
+- PHP
+
+
+## Frontend
+
+- React
+- Next.js
+- Vue.js
+- Angular
+
+
+## Database
+
+- PostgreSQL
+- MySQL
+- SQL Server
+- SQLite
+- MongoDB
+
+
+---
+
+# 💡 Example
+
+
+Prompt:
+
+
+Create a financial dashboard for a government organization.
+
+
+
+Requirements:
+
+
+Authentication
+
+PostgreSQL
+
+User permissions
+
+Interactive charts
+
+PDF export
+
+Excel export
+
+Docker deployment
+
+
+
+ATLAS AI generates:
+
+
+✔ Software Architecture
+
+✔ Backend
+
+✔ Frontend
+
+✔ Database
+
+✔ REST API
+
+✔ BI Dashboard
+
+✔ Documentation
+
+✔ Deployment Files
+
+
+
+---
+
+# 🛣 Roadmap
+
+
+## Version 1
+
+- Authentication
+- Workspace
+- Prompt Engine
+- Blueprint Engine
+- Application Generator
+- Documentation Generator
+
+
+## Version 2
+
+- AI Agents
+- Visual Canvas
+- Live Preview
+- GitHub Integration
+- Cloud Deployment
+
+
+## Version 3
+
+- Multi-Agent Software Engineering
+- Plugin Marketplace
+- Enterprise Edition
+- Team Collaboration
+- Multi-Tenant Platform
+
+
+---
+
+# 🤖 Future Vision
+
+The future architecture will introduce specialized AI Software Engineers.
+
+
+Example:
+
+          ATLAS AI
+
+              |
+
+      AI Orchestrator
+
+              |
+
+Architect Agent
+
+Backend Agent
+
+Frontend Agent
+
+Security Agent
+
+Database Agent
+
+DevOps Agent
+
+
+
+Each agent will specialize in a specific engineering domain.
+
+
+---
+
+# 🤝 Contributing
+
+
+Contributions are welcome.
+
+
+Steps:
+
+```bash
+git clone https://github.com/your-user/Atlas-AI.git
+
+cd Atlas-AI
+
+git checkout -b feature/new-engine
+
+git commit -m "Add new engine"
+
+git push origin feature/new-engine
+📄 License
+
+MIT License
+
+🌌 ATLAS AI
+Engineering the Future of Software Development
+
+Built with ❤️ by the Open Source Community
+
+
+---
+
+Minha recomendação como arquiteto do projeto: **esse README já está no nível correto para abrir o repositório público.**
+
+A próxima documentação que eu criaria seria:
+
+1. `docs/ATLAS_AI_ARCHITECTURE.md` → arquitetura completa.
+2. `docs/BLUEPRINT_ENGINE_SPEC.md` → especificação do cérebro do sistema.
+3. `docs/ENGINE_DEVELOPMENT_GUIDE.md` → como criar novas engines.
+4. `docs/AI_AGENT_ARCHITECTURE.md` → futuro multiagente.
+
+Esses documentos vão transformar o ATLAS AI de "projeto" em uma **plataforma com arquitetura definida**.
